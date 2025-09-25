@@ -21,3 +21,5 @@ Reports and summaries are generated weekly and monthly. Unit testing will ensure
 
 Finally, Security and Privacy includes data encryption and access control. Unit tests will validate encryption and access rules, while integration tests will ensure unauthorized access is denied and sensitive data is protected throughout the application.
 
+Jagadish Karki-------
+
