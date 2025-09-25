@@ -1,0 +1,22 @@
+3. Document the Test Plan
+
+The complete list of tests to develop includes:
+
+Authentication Tests – validating correct login and signup, testing invalid credentials, and checking password reset functionality.
+
+Profile Tests – saving and updating personal details like height, weight, age, and goals, and verifying input validation.
+
+Meal Logging and Recipe Suggestions – logging single and multiple meals and verifying AI-generated recipe suggestions.
+
+Dashboard Tests – verifying calorie and nutrient calculations and real-time updates after meal logging.
+
+Progress Tracking and Reports – generating weekly and monthly charts and ensuring correct aggregation of calories, weight, and hydration.
+
+Hydration and Mood Tracking – adding water intake and mood entries and confirming that the dashboard reflects changes correctly.
+
+Reminders and Notifications – testing the timing and content of notifications, and verifying that they trigger correctly.
+
+Security Tests – ensuring encryption of user data, implementing role-based access control, and testing for unauthorized access attempts.
+
+AI Recommendation Accuracy – generating AI suggestions for different profiles and verifying outputs against expected results.
+
