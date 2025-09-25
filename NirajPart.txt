@@ -1,0 +1,3 @@
+2. Roles and Responsibilities
+
+The Test Plan Lead responsible for overall planning, documentation, and scheduling will be Suman Khadayat. Unit Testing of individual components like forms, AI logic, and calculations will be handled by Niraj Bhandari and Jeevan Karki. Integration Testing, which tests interactions between modules, will be handled by Austin Davis and Suman Khadayat. System Testing and End-to-End testing of full application workflows will involve all team members collaborating. Bug Tracking and Documentation will be managed by Jeevan Karki, while Reporting will be handled by Niraj Bhandari. Team members will provide support through pair testing for critical modules like AI and security, and peer review of test results will be conducted to ensure accuracy.
