@@ -1,0 +1,23 @@
+Lab 4 
+Dietfy Test Plan
+
+1. Establish and Identify the Components
+
+The components to test in Dietfy include User Authentication and Profile Management, which covers login, signup, password reset, and user profile details. Unit testing will validate form inputs, password rules, and profile data saving and retrieval. Integration testing will ensure that signup, profile creation, and login work together correctly, and that user data flows properly into other components like the dashboard and meal logging.
+
+The Personal Dashboard displays calories left for the day and nutrient breakdown. Unit tests will validate calculations for calories and macronutrients, while integration tests will verify that meal logging and AI suggestions correctly update the dashboard.
+
+Meal Logging and Recipe Suggestions allow users to log meals and receive AI-based recipe recommendations. Unit testing will check input forms, meal database storage, and AI logic, while integration testing ensures that meal logging updates the dashboard and reflects in AI suggestions and reports.
+
+Progress Tracking includes weekly and monthly charts for calorie intake and weight changes. Unit testing will validate chart data calculations, and integration testing ensures that data from meal logging flows correctly into the charts and reports.
+
+Hydration and Mood Monitoring tracks water intake and user mood. Unit tests will check input validation and data storage, and integration testing will verify that the dashboard and reports update correctly based on hydration and mood trends.
+
+Reminders and Notifications include health tips and water reminders. Unit tests will check the timing triggers and content of notifications, while integration tests will verify that notifications trigger correctly based on user actions or reminders.
+
+AI Suggestions provide personalized meal and health recommendations. Unit tests will validate the AI algorithm outputs for different user profiles, and integration tests will verify that AI suggestions integrate with the user profile, dashboard, and reports.
+
+Reports and summaries are generated weekly and monthly. Unit testing will ensure accurate aggregation of calories, nutrients, hydration, and weight, while integration testing will verify that data from all components produces correct reports.
+
+Finally, Security and Privacy includes data encryption and access control. Unit tests will validate encryption and access rules, while integration tests will ensure unauthorized access is denied and sensitive data is protected throughout the application.
+
